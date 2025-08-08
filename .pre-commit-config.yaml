@@ -19,6 +19,14 @@ repos:
       - id: mixed-line-ending # Replaces or checks mixed line ending. i.e. changes all to lf or crlf
       - id: trailing-whitespace # Trims trailing whitespace.
 
+  # Format the file types listed in `types_or` are formatted with Prettier
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: "v3.6.2"
+    hooks:
+      - id: prettier
+        types_or: [yaml, markdown, json]
+        args: [--prose-wrap=always]
+
   # Spellchecking
   - repo: https://github.com/codespell-project/codespell
     rev: "v2.4.1"
