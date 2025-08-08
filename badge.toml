@@ -1,6 +1,7 @@
 # style = "flat"
-# label = "Princeton RSE" # Left side text
+label = "Princeton RSE" # Left side text
 labelColor = "red" # Left side background color
+message = "year here" # Right side text
 color = "purple" # Right side background color
 # link = "https://researchcomputing.princeton.edu/services/research-software-engineering"
 # logo = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAQCAYAAADNo/U5AAAACXBIWXMAAAB4AAAAeAHq8mr2AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAfBJREFUKJFtkk9IFGEYxn/fOB87jCKFboUuBa5zykshRH8YWCykQ1RHg71FdA+6SGAdhaCbdIiKLiJBpAlz8hIFEuQh2FgyzRqFWmaV2XZ1dnXfDu7AOvnAd/je5/l97/fCi4iQPEAvMAP0HOofAgwBXwEBCsDpZEYBT4A/gAWcz2QyuXQ63dFoNNBaUyqVdn3fXwAWgQhIA+y2XhXXdcXzPCkUCjI9PS3FYlE8zxPXdSXOAHWjRQMQhiH1ep1KpYJSiiAIKJfLhGFIm3ZMYB1wALTWBEHA5uYm5XKZKIqIogitdTvkq5Gs/bQ7ZQyTUGf3kY5quLWXrIdR85M5l898EeROu1Es1bn95jdT148xdDyVwOSZoczGXGtAAJY2Iq489/m8scPoC5/FXzsHCMPcmzes8ZU1YB7g/Y9trr70CWr7v9rabnLt1ToL32sx9M4aX1lDRKg9cs7NjPWJZSoBJGUquXfpqKRad8tUMjPWJ7WJ7IUDG5EbsFcBsbWS2Xy/VCccmc33i633wdyAvRpnjbjvmUHLdXp04/WtPkayNgAjWZu3+X6cHr07fKLrcpxVrX0D4Of9wYu9nYYHdLUN/7cUNkdPPV7+GBeMNpOTk8sfBHUTqMaAKHWjHfivU6zaQ+csqCkMuWs/+LaU9P8BpwYUBc5MbdwAAAAASUVORK5CYII="
