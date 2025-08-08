@@ -1,6 +1,8 @@
 {
-  "label": "left text",
-  "message": "right text",
-  "labelColor": "purple",
-  "color": "red"
+  "badge": {
+    "label": "left text",
+    "message": "right text",
+    "labelColor": "purple",
+    "color": "red"
+  }
 }
