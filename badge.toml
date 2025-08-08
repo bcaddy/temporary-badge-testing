@@ -1,3 +1,9 @@
+[badges.test]
+schemaVersion = 1
+label = "tests"
+message = "100%"
+color = "brightgreen"
+
 [badge]
 style = "flat"
 label = "Princeton RSE" # Left side text
