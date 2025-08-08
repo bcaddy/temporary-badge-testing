@@ -1,12 +1,5 @@
-[badges.test]
-schemaVersion = 1
-label = "tests"
-message = "100%"
-color = "brightgreen"
-
-[badge]
-style = "flat"
-label = "Princeton RSE" # Left side text
+# style = "flat"
+# label = "Princeton RSE" # Left side text
 labelColor = "red" # Left side background color
 color = "purple" # Right side background color
 # link = "https://researchcomputing.princeton.edu/services/research-software-engineering"

@@ -1,0 +1,35 @@
+ci:
+  autoupdate_commit_msg: "chore: update pre-commit hooks"
+  autofix_prs: false
+  autofix_commit_msg: "style: pre-commit fixes"
+  autoupdate_schedule: "monthly"
+
+repos:
+  # A variety of generic checks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: "v5.0.0"
+    hooks:
+      - id: check-added-large-files # Check that no large files (>500kB) are being committed
+      - id: check-case-conflict # Check that filenames won't have issues with case sensitive file systems
+      - id: check-merge-conflict # Check for files that have merge conflict strings in them
+      - id: check-symlinks # Checks for symlinks which do not point to anything.
+      - id: check-yaml # Attempts to load all yaml files to verify syntax.
+      - id: check-toml # Attempts to load all toml files to verify syntax.
+      - id: end-of-file-fixer # Makes sure files end in a newline and only a newline.
+      - id: mixed-line-ending # Replaces or checks mixed line ending. i.e. changes all to lf or crlf
+      - id: trailing-whitespace # Trims trailing whitespace.
+
+  # Spellchecking
+  - repo: https://github.com/codespell-project/codespell
+    rev: "v2.4.1"
+    hooks:
+      - id: codespell
+
+  # Checks for capitalization spelling errors
+  - repo: local
+    hooks:
+      - id: disallow-caps
+        name: Disallow improper capitalization
+        language: pygrep
+        entry: PyBind|Numpy|Cmake|CCache|Github|PyTest
+        exclude: .pre-commit-config.yaml
