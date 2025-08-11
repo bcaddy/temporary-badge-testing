@@ -1,8 +1,7 @@
 {
-  "badge": {
-    "label": "left text",
-    "message": "right text",
-    "labelColor": "purple",
-    "color": "red"
-  }
+  "schemaVersion": 1,
+  "label": "left text",
+  "labelColor": "purple",
+  "message": "right text",
+  "color": "red"
 }
